@@ -1,0 +1,25 @@
+{
+  "name": "esusu",
+  "version": "1.0.0",
+  "description": "A simple platform that people save a fixed amount automatically every week and then one member collects the money at the end of every month.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "type": "module",
+  "engines": {
+    "node": "16.x"
+  },
+  "author": "Akanbi Segun Paul",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "errorhandler": "^1.5.1",
+    "express": "^4.18.1",
+    "http": "^0.0.1-security",
+    "mongoose": "^6.3.3",
+    "path": "^0.12.7"
+  }
+}
