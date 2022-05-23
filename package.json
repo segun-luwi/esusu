@@ -14,12 +14,16 @@
   "author": "Akanbi Segun Paul",
   "license": "ISC",
   "dependencies": {
+    "bcrypt": "^5.0.1",
     "cors": "^2.8.5",
     "dotenv": "^16.0.1",
     "errorhandler": "^1.5.1",
     "express": "^4.18.1",
     "http": "^0.0.1-security",
+    "joi": "^17.6.0",
+    "jsonwebtoken": "^8.5.1",
     "mongoose": "^6.3.3",
+    "node-cron": "^3.0.0",
     "path": "^0.12.7"
   }
 }
